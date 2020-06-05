@@ -1,0 +1,86 @@
+body {
+    background-color: #14b822;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 80px;
+    width: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+}
+
+.numero {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.card .spades::before {
+    color: #000000;
+    content: '\2660';
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card .spades::after {
+    color: #000000;
+    content: '\2660';
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card .clubs::before {
+    color: #000000;
+    content: '\2663';
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card .clubs::after {
+    color: #000000;
+    content: '\2663';
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card .hearts::before {
+    color: #ff0000;
+    content: '\2665';
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card .hearts::after {
+    color: #ff0000;
+    content: '\2665';
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card .diamonds::before {
+    color: #ff0000;
+    content: '\2666';
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card .diamonds::after {
+    color: #ff0000;
+    content: '\2666';
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
